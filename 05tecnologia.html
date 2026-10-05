@@ -1,0 +1,144 @@
+<!-- Tecnología
+-->
+<style>
+:root{--navy:#0b1f3a;--navy-2:#12325a;--blue:#24517d;--paper:#f7f8fa;--white:#fff;--ink:#101828;--muted:#667085;--line:#e2e7ed;--gold:#b8904f;--gold-soft:#e8dcc7;--red:#a93539;--shadow:0 24px 70px rgba(16,24,40,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--white);font:400 1rem/1.65 Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}h1,h2,h3,p{margin-top:0}h1,h2,h3{line-height:1.08;letter-spacing:-.035em}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.skip-link{position:fixed;z-index:100;top:1rem;left:1rem;padding:.7rem 1rem;background:#fff;border:1px solid var(--line);transform:translateY(-160%)}.skip-link:focus{transform:none}
+.site-header{position:absolute;z-index:20;left:0;right:0}.nav-wrap{width:min(1240px,calc(100% - 48px));height:88px;margin:auto;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(11,31,58,.1)}.brand{display:flex;align-items:center;font-size:1.02rem;font-weight:800;letter-spacing:.06em}.brand b{color:var(--red)}nav{display:flex;align-items:center;gap:1.75rem;font-size:.9rem}nav>a{color:#475467;transition:.2s}nav>a:hover{color:var(--navy)}.nav-cta{padding:.68rem 1rem;border:1px solid var(--blue);color:#fff!important;background:var(--blue)}.nav-cta:hover{background:var(--navy);border-color:var(--navy)}.nav-cta span{color:#fff}.menu-button{display:none;border:0;background:none}.menu-button b{position:absolute;clip:rect(0,0,0,0)}
+.hero{width:min(1180px,calc(100% - 48px));min-height:720px;margin:auto;padding:165px 0 90px;display:flex;align-items:center}.hero-copy{max-width:980px}.eyebrow,.kicker,.section-label{font-size:.75rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase}.eyebrow{display:flex;align-items:center;gap:.7rem;color:var(--blue)}.eyebrow span{width:27px;height:2px;background:var(--red)}h1{max-width:920px;margin:1.5rem 0 1.7rem;font-size:clamp(3.45rem,6.5vw,6.4rem);letter-spacing:-.065em;color:var(--navy)}.hero-lede{max-width:790px;color:#536174;font-size:1.12rem}.hero-actions{display:flex;gap:.75rem;margin:2.1rem 0 3.3rem}.button{display:inline-flex;align-items:center;justify-content:center;gap:1.25rem;min-height:52px;padding:.8rem 1.3rem;border:1px solid transparent;font-weight:700;cursor:pointer;transition:.2s}.button:hover{transform:translateY(-2px)}.button-primary{color:#fff;background:var(--navy)}.button-primary span{color:#d4b275}.button-secondary{border-color:#cdd4dd;color:var(--navy);background:#fff}.hero-disciplines{display:flex;align-items:center;gap:1rem;color:#4d5b6d;font-size:.78rem;font-weight:600}.hero-disciplines i{width:3px;height:3px;border-radius:50%;background:var(--red)}
+.trust-strip{display:flex;align-items:center;justify-content:center;gap:1.4rem;min-height:76px;padding:1rem 24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:#657286;font-size:.71rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.trust-strip i{width:4px;height:4px;border-radius:50%;background:var(--red)}
+.section{width:min(1180px,calc(100% - 48px));margin:auto;padding:116px 0}.section-label{display:flex;align-items:center;gap:.65rem;margin-bottom:3rem;color:#8a94a3}.section-label span{color:var(--red)}.kicker{margin-bottom:1rem;color:var(--gold)}h2{margin:0;color:var(--navy);font-size:clamp(2.55rem,4.5vw,4.35rem);letter-spacing:-.055em}.value-grid,.section-heading{display:grid;grid-template-columns:1fr .62fr;gap:7rem;align-items:end}.value-copy,.section-heading>p{color:var(--muted);font-size:1.03rem}.value-copy p:last-of-type{margin-bottom:0}.value-cards{display:grid;grid-template-columns:repeat(4,1fr);margin-top:4rem;border-top:1px solid var(--line);border-left:1px solid var(--line)}.value-cards article{min-height:230px;padding:1.5rem;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.value-cards article>span,.service-code{color:var(--red);font-size:.68rem;font-weight:700;letter-spacing:.12em}.value-cards h3{margin:4rem 0 .6rem;font-size:1.08rem;color:var(--navy)}.value-cards p{margin:0;color:var(--muted);font-size:.88rem}
+.services{padding-top:80px}.section-heading{margin-bottom:3.5rem}.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}.service-card{padding:2.1rem;min-height:390px;border:1px solid var(--line);background:#fff;transition:.25s}.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.service-card.build{color:#fff;background:var(--navy);border-color:var(--navy)}.service-code{display:flex;justify-content:space-between}.service-code span{color:#98a2b3}.build .service-code{color:#d7b877}.build .service-code span{color:#aebed0}.service-card h3{margin:4rem 0 .8rem;color:var(--navy);font-size:1.6rem}.build h3{color:#fff}.service-card p{color:var(--muted)}.build p{color:#cbd5e1}.service-card ul{display:grid;grid-template-columns:repeat(3,1fr);gap:.65rem;list-style:none;margin:2rem 0 1.6rem;padding:1.2rem 0 0;border-top:1px solid var(--line);font-size:.78rem}.build ul{border-color:rgba(255,255,255,.18)}.service-card li:before{content:"+";display:block;color:var(--gold);font-weight:700}.service-card>a{color:var(--blue);font-weight:700}.build>a{color:#d9bd88}.services-cta{display:flex;justify-content:center;margin-top:2.5rem}
+.audiences{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.audience-heading{max-width:840px}.audience-tabs{display:flex;margin-top:3.5rem;border-bottom:1px solid #d5dbe3}.audience-tabs button{padding:1rem 1.5rem;border:0;border-bottom:2px solid transparent;background:transparent;color:#667085;font-weight:700;cursor:pointer}.audience-tabs button[aria-selected=true]{border-color:var(--red);color:var(--navy)}.audience-panel{display:grid;grid-template-columns:.3fr 1fr;gap:4rem;padding:3.5rem 0;animation:reveal .25s}.big-number{font-size:6rem;font-weight:800;line-height:1;color:transparent;-webkit-text-stroke:1px #c5ccd5}.audience-panel h3{max-width:740px;color:var(--navy);font-size:2rem}.audience-panel p{max-width:760px;color:var(--muted)}.audience-panel ul{display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;margin:1.8rem 0 0;padding:0}.audience-panel li{padding:.55rem .8rem;border:1px solid #d5dbe3;background:#fff;font-size:.82rem}@keyframes reveal{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.statement{padding:105px max(24px,calc((100% - 1040px)/2));text-align:center;background:var(--navy);color:#fff}.statement p{color:#d4b275;font-size:.72rem;font-weight:700;letter-spacing:.15em}.statement h2{max-width:980px;margin:1rem auto;color:#fff}.statement-cta{margin-top:2rem;background:#fff;color:var(--navy)}.statement-cta span{color:var(--red)}
+.lead-magnet{padding:115px max(24px,calc((100% - 1180px)/2));overflow:hidden;background:#eef1f4}.lead-inner{max-width:800px;margin:auto}.lead-copy>p:not(.kicker){max-width:700px;color:var(--muted);font-size:1.03rem}.lead-subtitle{margin:.8rem 0 1.2rem!important;color:var(--navy)!important;font-weight:700}.lead-copy ul{display:grid;gap:.55rem;margin:1.8rem 0;padding:0;list-style:none;color:#455468}.lead-copy li:before{content:"✓";margin-right:.7rem;color:var(--gold);font-weight:800}.button-download{margin-top:.3rem;color:#fff;background:var(--navy)}.button-download span{color:#d4b275;font-size:1.1rem}.lead-copy small{display:block;margin-top:.65rem;color:#7d8897}
+footer{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:2.2rem max(24px,calc((100% - 1180px)/2));border-top:1px solid #1f3551;background:#07182d;color:#9aabba;font-size:.82rem}.footer-brand{color:#fff}.footer-brand+p{margin:0}footer>a:last-child{color:#fff}
+@media(max-width:980px){.hero{padding-top:135px}.value-grid,.section-heading{grid-template-columns:1fr;gap:2rem}.value-cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:720px){.nav-wrap{width:calc(100% - 32px);height:74px}.menu-button{display:grid;width:42px;height:42px;place-content:center;gap:5px}.menu-button span{display:block;width:22px;height:2px;background:var(--navy)}nav{display:none;position:absolute;top:74px;left:16px;right:16px;padding:1rem;flex-direction:column;align-items:stretch;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}nav.open{display:flex}nav a{padding:.6rem}.nav-cta{text-align:center}.hero{width:calc(100% - 32px);min-height:auto;padding:112px 0 64px}h1{font-size:clamp(2.85rem,13vw,4rem)}.hero-lede{font-size:1rem}.hero-actions{flex-direction:column;align-items:stretch}.hero-disciplines{flex-wrap:wrap}.trust-strip{justify-content:flex-start;overflow:auto}.section{width:calc(100% - 32px);padding:82px 0}.value-cards,.service-grid{grid-template-columns:1fr}.value-cards article{min-height:185px}.value-cards h3{margin-top:2.8rem}.service-card{min-height:0}.service-card h3{margin-top:2.8rem}.service-card ul{grid-template-columns:1fr}.services-cta .button{width:100%}.audience-tabs{overflow:auto}.audience-tabs button{white-space:nowrap}.audience-panel{grid-template-columns:1fr;gap:1rem}.big-number{font-size:4rem}.statement{padding:80px 20px}.lead-magnet{padding:80px 16px}footer{flex-direction:column;text-align:center}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+.digital-page .site-header{background:rgba(255,255,255,.94);backdrop-filter:blur(12px)}
+.story-opening{width:min(980px,calc(100% - 48px));margin:auto;padding:175px 0 115px}.story-intro{margin:4rem 0 .7rem;color:var(--red);font-size:clamp(1.15rem,2vw,1.45rem);font-weight:750}.story-opening h1{max-width:930px;margin:0;color:var(--navy);font-size:clamp(3.2rem,7vw,6.4rem);line-height:.96;letter-spacing:-.06em}.story-opening-copy{display:grid;grid-template-columns:1fr 1fr;gap:3rem;max-width:900px;margin:4rem 0 3rem;padding-top:2rem;border-top:1px solid var(--line)}.story-opening-copy p{margin:0;color:#536277;font-size:1.02rem}.story-opening-copy strong{color:var(--navy)}.story-link{display:inline-flex;align-items:center;gap:.7rem;color:var(--blue);font-size:.82rem;font-weight:800;letter-spacing:.03em}.story-link span{color:var(--red);font-size:1.1rem}
+.story-grid{display:grid;grid-template-columns:1fr .8fr;gap:7rem}.story-copy>p{color:var(--muted)}.story-copy blockquote{margin:2.3rem 0 0;padding:1.4rem 0 1.4rem 1.6rem;border-left:3px solid var(--red);color:var(--navy);font-size:1.18rem;font-weight:700;line-height:1.45}.whatsapp-button{margin-top:1.7rem;background:#1f7a55;color:#fff}.whatsapp-button:hover{background:#176644;color:#fff}
+.digital-pillars{display:grid;grid-template-columns:repeat(6,1fr);margin-top:4rem;border-top:1px solid var(--line);border-left:1px solid var(--line)}.digital-pillars span{min-height:105px;padding:1.4rem 1rem;border-right:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--navy);font-size:.8rem;font-weight:800}.digital-pillars span:before{content:"";display:block;width:18px;height:2px;margin-bottom:1.5rem;background:var(--red)}
+.digital-band{background:var(--navy);color:#fff}.digital-band .section-label{color:#9cadc1}.band-heading{display:grid;grid-template-columns:.65fr 1fr;gap:5rem;align-items:end;margin:0 0 3rem}.band-heading .kicker{color:#d7b877}.band-heading h2{margin:0;color:#fff;max-width:760px}.digital-route{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(255,255,255,.16);border-left:1px solid rgba(255,255,255,.16)}.digital-route article{min-height:270px;padding:1.6rem;border-right:1px solid rgba(255,255,255,.16);border-bottom:1px solid rgba(255,255,255,.16)}.digital-route article>span{color:#d7b877;font-size:.7rem;font-weight:800}.digital-route h3{margin:4rem 0 1rem;color:#fff;font-size:1.35rem}.digital-route p{margin:0;color:#bdc9d8;font-size:.9rem}
+.solutions-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}.solutions-grid article{position:relative;min-height:330px;padding:2rem;border:1px solid var(--line);background:#fff}.solutions-grid article>span{color:var(--red);font-size:.68rem;font-weight:800;letter-spacing:.12em}.solutions-grid h3{margin:3rem 0 .8rem;color:var(--navy);font-size:1.55rem}.solutions-grid p{color:var(--muted)}.solutions-grid ul{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;list-style:none;margin:1.6rem 0 0;padding:1.2rem 0 0;border-top:1px solid var(--line);color:#455468;font-size:.82rem}.solutions-grid li:before{content:"+";display:block;color:var(--gold);font-weight:800}.solutions-grid .featured{border-color:var(--navy);box-shadow:var(--shadow)}
+.deliverables-wrap{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.deliverables-layout{display:grid;grid-template-columns:1fr .75fr;gap:7rem}.deliverables-note{max-width:650px;color:var(--muted)}.deliverables-layout ul{list-style:none;margin:0;padding:0}.deliverables-layout li{padding:1rem 0;border-bottom:1px solid #d7dde4;color:#455468}.deliverables-layout li:before{content:"+";margin-right:.8rem;color:var(--red);font-weight:800}
+.engagement-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}.engagement-grid article{position:relative;min-height:225px;padding:2rem;border:1px solid var(--line);background:#fff}.engagement-grid article>p{margin:0;color:var(--red);font-size:.68rem;font-weight:800;letter-spacing:.12em}.engagement-grid h3{margin:3rem 0 .8rem;color:var(--navy);font-size:1.55rem}.engagement-grid span{display:block;color:var(--muted)}.engagement-grid .featured{border-color:var(--navy);box-shadow:var(--shadow)}.engagement-grid .featured:before{content:"PROCESO DEFINIDO";position:absolute;top:0;right:0;padding:.45rem .7rem;background:var(--navy);color:#fff;font-size:.62rem;font-weight:800;letter-spacing:.1em}.engagement-grid article:last-child{grid-column:1/-1}.engagement-contact{display:flex;align-items:center;justify-content:center;gap:1.4rem;margin-top:2.5rem;padding:2rem;border:1px solid var(--line);background:var(--paper)}.engagement-contact p{margin:0;color:var(--navy);font-weight:750}.engagement-contact .whatsapp-button{margin-top:0}
+.scope-limits{background:#eef1f4}.scope-inner{display:grid;grid-template-columns:1fr .75fr;gap:7rem}.scope-inner>div:last-child{color:var(--muted)}
+.digital-cta{padding:105px max(24px,calc((100% - 900px)/2));text-align:center;background:var(--navy);color:#fff}.digital-cta>p:first-child{color:#d7b877;font-size:.72rem;font-weight:800;letter-spacing:.15em}.digital-cta h2{color:#fff}.digital-cta>p:not(:first-child){max-width:680px;margin:1.2rem auto 0;color:#c7d1de}.digital-cta .button{margin-top:2rem}
+@media(max-width:980px){.story-grid,.deliverables-layout,.scope-inner{grid-template-columns:1fr;gap:2.5rem}.digital-pillars,.digital-route{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:720px){.story-opening{width:calc(100% - 32px);padding:130px 0 75px}.story-opening h1{font-size:clamp(2.8rem,14vw,4.25rem)}.story-intro{margin-top:3rem}.story-opening-copy,.band-heading{grid-template-columns:1fr;gap:1.25rem;margin-top:2.8rem}.digital-pillars,.digital-route,.solutions-grid,.engagement-grid{grid-template-columns:1fr}.digital-route article{min-height:230px}.digital-route h3{margin-top:2.5rem}.solutions-grid ul{grid-template-columns:1fr}.engagement-grid article:last-child{grid-column:auto}.engagement-contact{align-items:stretch;flex-direction:column;text-align:center}.engagement-contact .button,.digital-cta .button{width:100%}.digital-cta{padding:80px 20px}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Tecnología aplicada","provider":{"@type":"ProfessionalService","name":"ErickMB"},"areaServed":{"@type":"Country","name":"México"},"serviceType":"Software y transformación digital para constructoras y desarrolladores","description":"Diseño e implementación de software, aplicaciones, automatizaciones, integraciones, dashboards e inteligencia artificial para empresas de construcción."}</script>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" id="inicio">
+    <div class="nav-wrap">
+      <a class="brand" href="https://www.ingerickmb.com/" aria-label="ErickMB, inicio"><span>ERICK<b>MB</b></span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span><b>Menú</b></button>
+      <nav id="main-nav" aria-label="Navegación principal">
+        <a href="#servicio">Servicio</a><a href="#ruta">Implementación</a><a href="#soluciones">Soluciones</a><a href="#modalidades">Modalidades</a>
+        <a class="nav-cta" href="#diagnostico">Revisar mis procesos <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="story-opening" aria-labelledby="story-title">
+      <p class="eyebrow"><span></span> DIGITAL · TECNOLOGÍA APLICADA</p>
+      <p class="story-intro">La información existe. Pero no está conectada.</p>
+      <h1 id="story-title">Más herramientas no siempre significan más control.</h1>
+      <div class="story-opening-copy">
+        <p>El residente reporta por WhatsApp. Supervisión controla avances en Excel. Administración registra gastos en otro archivo y compras trabaja con documentos independientes.</p>
+        <p>Cuando dirección necesita entender el estado real de un proyecto, reúne versiones parciales que llegan tarde y son difíciles de comparar. El reto no es instalar otra aplicación: <strong>es conectar la operación para convertir información en decisiones.</strong></p>
+      </div>
+      <a class="story-link" href="#servicio">Descubre dónde comienza la digitalización <span>↓</span></a>
+    </section>
+
+    <section class="trust-strip" aria-label="Empresas atendidas"><span>Constructoras</span><i></i><span>Desarrolladoras</span><i></i><span>Contratistas</span><i></i><span>Servicios técnicos</span></section>
+
+    <section class="section story-problem" id="servicio">
+      <div class="section-label"><span>01</span> INFORMACIÓN FRAGMENTADA</div>
+      <div class="story-grid">
+        <div><p class="kicker">Datos por todas partes, respuestas en ninguna</p><h2>La operación captura mucho y aprende poco.</h2></div>
+        <div class="story-copy"><p>La duplicidad de registros consume tiempo, los reportes llegan incompletos y los responsables no comparten una misma versión del proyecto. Las desviaciones aparecen cuando ya son costosas.</p><p>El problema no es solamente tecnológico. Es la falta de integración entre proceso, personas, información, herramientas, indicadores y decisiones.</p><blockquote>“La tecnología tiene valor cuando mejora procesos, información, decisiones y resultados.”</blockquote><a class="button whatsapp-button" href="https://wa.me/529902122834?text=Hola%20Erick%2C%20quiero%20informaci%C3%B3n%20sobre%20DIGITAL%20Tecnolog%C3%ADa%20Aplicada." target="_blank" rel="noopener noreferrer">Contactar por WhatsApp <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section digital-value">
+      <div class="section-label"><span>02</span> TECNOLOGÍA QUE SIGUE AL PROCESO</div>
+      <div class="value-grid">
+        <div><p class="kicker">Proceso primero. Tecnología al final.</p><h2>Diseñamos el sistema después de entender la operación.</h2></div>
+        <div class="value-copy"><p>Antes de configurar módulos o desarrollar software, identificamos cómo trabaja la empresa, qué información necesita, quién la genera y qué decisiones debe soportar.</p><p>Después estandarizamos el flujo, definimos responsables y permisos, estructuramos los datos y construimos una solución que el equipo pueda utilizar y mejorar.</p></div>
+      </div>
+      <div class="digital-pillars" aria-label="Capas de la solución"><span>Procesos</span><span>Personas</span><span>Información</span><span>Herramientas</span><span>Indicadores</span><span>Decisiones</span></div>
+    </section>
+
+    <section class="digital-band" id="ruta">
+      <div class="section">
+        <div class="section-label"><span>03</span> DE LA OPERACIÓN AL SISTEMA</div>
+        <div class="band-heading"><p class="kicker">Una implementación que se prueba con información real</p><h2>No digitalizamos procesos innecesarios, duplicados o mal diseñados.</h2></div>
+        <div class="digital-route">
+          <article><span>01</span><h3>Diagnosticar</h3><p>Procesos, fuentes de información, herramientas, usuarios, duplicidades, riesgos y madurez digital.</p></article>
+          <article><span>02</span><h3>Ingeniería</h3><p>Flujos, entradas, salidas, responsables, autorizaciones, excepciones e indicadores.</p></article>
+          <article><span>03</span><h3>Arquitectura</h3><p>Datos, catálogos, relaciones, perfiles, permisos, trazabilidad, reportes e integraciones.</p></article>
+          <article><span>04</span><h3>Construir</h3><p>Interfaces, módulos, funciones, automatizaciones, dashboards y conexiones con otros sistemas.</p></article>
+          <article><span>05</span><h3>Probar y adoptar</h3><p>Piloto con datos reales, ajustes, capacitación por perfil, manuales y plan de adopción.</p></article>
+          <article><span>06</span><h3>Operar y evolucionar</h3><p>Soporte, incidencias, mejoras, nuevos módulos y monitoreo continuo del uso del sistema.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section solutions" id="soluciones">
+      <div class="section-label"><span>04</span> SOLUCIONES ESPECIALIZADAS</div>
+      <div class="section-heading"><div><p class="kicker">Tecnología creada desde la experiencia en construcción</p><h2>El sistema se adapta al problema que necesitas resolver.</h2></div><p>Podemos configurar programas especializados, digitalizar un proceso concreto o conectar distintas áreas en una plataforma integral.</p></div>
+      <div class="solutions-grid">
+        <article class="featured"><span>ERICKMB CONTROL</span><h3>Supervisión y control de proyectos</h3><p>Centraliza tiempo, costo, calidad, riesgos, avances, evidencias, incidencias y reportes ejecutivos.</p><ul><li>Avance programado vs. real</li><li>Calidad e incidencias</li><li>Matriz de riesgos</li><li>Dashboard de dirección</li></ul></article>
+        <article><span>ERICKMB ADMIN</span><h3>Administración, costos y gastos</h3><p>Organiza presupuestos, compras, proveedores, contratos, pagos, flujo y rentabilidad por proyecto.</p><ul><li>Presupuesto y conceptos</li><li>Compras y subcontratos</li><li>Estimaciones y pagos</li><li>Margen proyectado</li></ul></article>
+        <article><span>APLICACIONES A MEDIDA</span><h3>Procesos particulares</h3><p>Digitalizamos estimaciones, compras, calidad, postventa, inventarios, contratistas o portales para clientes.</p><ul><li>Aplicaciones web o móviles</li><li>Roles y permisos</li><li>Flujos de autorización</li><li>Reportes especializados</li></ul></article>
+        <article><span>INTEGRACIÓN E IA</span><h3>Sistemas que trabajan juntos</h3><p>Conectamos CRM, ERP, contabilidad, correo, WhatsApp y documentos, incorporando IA cuando aporta valor.</p><ul><li>Automatización</li><li>Extracción de datos</li><li>Resúmenes y alertas</li><li>Análisis de tendencias</li></ul></article>
+      </div>
+    </section>
+
+    <section class="deliverables-wrap" id="entregables">
+      <div class="section">
+        <div class="section-label"><span>05</span> LO QUE RECIBE LA EMPRESA</div>
+        <div class="deliverables-layout">
+          <div><p class="kicker">Una solución lista para operar y mejorar</p><h2>El software es solo una parte de la implementación.</h2><p class="deliverables-note">La adopción requiere procesos, responsables, datos, permisos, capacitación y una forma clara de medir el desempeño.</p></div>
+          <ul><li>Diagnóstico de madurez digital y mapa de procesos.</li><li>Requerimientos y arquitectura de información.</li><li>Aplicación web, móvil o configuración especializada.</li><li>Base de datos, roles, permisos y trazabilidad.</li><li>Automatizaciones, integraciones y dashboards.</li><li>Reportes ejecutivos y controles operativos.</li><li>Prueba piloto, capacitación y manuales.</li><li>Commissioning, soporte y plan de evolución.</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section engagement" id="modalidades">
+      <div class="section-label"><span>06</span> FORMAS DE EMPEZAR</div>
+      <div class="section-heading"><div><p class="kicker">De una oportunidad concreta a una plataforma integral</p><h2>El alcance se define por el proceso, no por la herramienta.</h2></div><p>Primero revisamos el nivel de madurez y después elegimos la solución más simple que pueda resolver el problema correctamente.</p></div>
+      <div class="engagement-grid">
+        <article><p>1–2 SEMANAS</p><h3>Diagnóstico digital</h3><span>Procesos, información, herramientas, usuarios y roadmap tecnológico.</span></article>
+        <article><p>3–6 SEMANAS</p><h3>Programa especializado</h3><span>Configuración de ERICKMB CONTROL o ADMIN, usuarios, catálogos, flujos y capacitación.</span></article>
+        <article class="featured"><p>6–12 SEMANAS</p><h3>Aplicación de proceso</h3><span>Una solución enfocada con base de datos, usuarios, automatizaciones y reportes.</span></article>
+        <article><p>ALCANCE VARIABLE</p><h3>Plataforma empresarial</h3><span>Varios procesos, perfiles, integraciones, aplicaciones móviles y requerimientos avanzados.</span></article>
+        <article><p>ACOMPAÑAMIENTO</p><h3>Mantenimiento y evolución</h3><span>Soporte, correcciones, nuevas funciones, análisis de datos y mejora continua.</span></article>
+      </div>
+      <div class="engagement-contact"><p>¿Qué proceso debería digitalizarse primero?</p><a class="button whatsapp-button" href="https://wa.me/529902122834?text=Hola%20Erick%2C%20quiero%20revisar%20qu%C3%A9%20procesos%20de%20mi%20empresa%20conviene%20digitalizar." target="_blank" rel="noopener noreferrer">Revisar mis procesos <span>↗</span></a></div>
+    </section>
+
+    <section class="scope-limits">
+      <div class="section scope-inner">
+        <div><p class="kicker">TECNOLOGÍA CON LÍMITES CLAROS</p><h2>El sistema facilita el control; no sustituye a los responsables.</h2></div>
+        <div><p>La solución se implementa con base en la información, los procesos y las autorizaciones entregadas por el cliente. No sustituye la dirección técnica, la contabilidad oficial ni la revisión fiscal o legal.</p><p>La tecnología captura, ordena, relaciona y presenta información. La calidad de las decisiones también depende de la captura correcta y de la revisión de los profesionales responsables.</p></div>
+      </div>
+    </section>
+
+    <section class="digital-cta" id="diagnostico">
+      <p>PRIMER PASO</p><h2>Antes de elegir software, revisemos el proceso.</h2><p>Identifica dónde se pierde información, qué decisiones necesitan soporte y cuál es la solución adecuada para tu operación.</p><a class="button statement-cta" href="https://wa.me/529902122834?text=Hola%20Erick%2C%20quiero%20agendar%20una%20sesi%C3%B3n%20para%20revisar%20mis%20procesos%20y%20sistemas." target="_blank" rel="noopener noreferrer">Agenda una sesión de diagnóstico <span>→</span></a>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="/home"><span>ERICK<b>MB</b></span></a><p>Tecnología aplicada para constructoras y desarrolladores</p><a href="#inicio">Volver arriba ↑</a></footer>
+<script>
+const menuButton=document.querySelector('.menu-button'),nav=document.querySelector('#main-nav');
+menuButton?.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')==='true';menuButton.setAttribute('aria-expanded',String(!open));nav.classList.toggle('open',!open)});
+nav?.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menuButton?.setAttribute('aria-expanded','false')}));
+const tabs=[...document.querySelectorAll('[role="tab"]')];
+function selectTab(active){tabs.forEach(tab=>{const selected=tab===active;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;document.getElementById(tab.getAttribute('aria-controls')).hidden=!selected})}
+tabs.forEach((tab,index)=>{tab.addEventListener('click',()=>selectTab(tab));tab.addEventListener('keydown',event=>{if(!['ArrowLeft','ArrowRight'].includes(event.key))return;event.preventDefault();const next=event.key==='ArrowRight'?(index+1)%tabs.length:(index-1+tabs.length)%tabs.length;selectTab(tabs[next]);tabs[next].focus()})});
+</script>
